@@ -1,14 +1,24 @@
 {
-  "name": "projetinho",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
-  },
-  "devDependencies": {
-    "@sveltejs/kit": "next",
-    "svelte": "^3.42.6"
-  },
-  "type": "module"
+	"name": "projetinho",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview"
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "next",
+		"svelte": "^3.42.6",
+		"postcss": "^8.3.8",
+		"postcss-load-config": "^3.1.0",
+		"svelte-preprocess": "^4.9.5",
+		"autoprefixer": "^10.3.6",
+		"cssnano": "^5.0.8",
+		"tailwindcss": "^2.2.16"
+	},
+	"type": "module",
+	"dependencies": {
+		"n": "^7.5.0",
+		"svelte-add": "^2021.10.0-2.0"
+	}
 }
